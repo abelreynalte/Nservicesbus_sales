@@ -1,0 +1,11 @@
+﻿---
+applications:
+- name: salesapi
+  random-route: true
+  memory: 128M
+  path: bin\Debug\netcoreapp2.1\publish
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git
+  disk_quota: 2GB
+  env:
+    ASPNETCORE_ENVIRONMENT: Production
+    
