@@ -2,9 +2,10 @@
 
  endpoint :
  POST
- https://salesapi-wise-gazelle.cfapps.io/v1/sales
+ https://salesapi-quiet-mongoose.cfapps.io/v1/Sales
  
  {
- "orderData":"item"
-}
+	"OrderId": "1",
+	"OrderData": "hola mundo"
+ }
  
