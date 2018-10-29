@@ -1,6 +1,8 @@
 # nservicebus_sales
 
- endpoint :
+La solución contiene los: proyectos: Sales.API, Sales.EndPoint
+
+ EndPint :
  POST
  https://salesapi-quiet-mongoose.cfapps.io/v1/Sales
  
